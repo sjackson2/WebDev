@@ -1,0 +1,57 @@
+body
+	{
+ 	background-color: #5DC8CD;
+	margin-bottom: 100px;
+	margin-right: 200px;
+	margin-left: 200px;
+	}
+p:hover, p:focus
+	{
+	font-size: 1em;
+	font-family: "Comic Sans ms";
+	}
+ /*this is for the the H1 header*/
+.shadow 
+
+	{
+ 	text-shadow: 2px 2px 2px white;
+	}
+header h1
+	{
+  	color:White;
+	font-size: 50pt;
+	background-color: Black;
+	}
+
+/* this is for the board walk image */
+#float		
+	{
+	float: right;
+	margin-right: 60%;
+	height: 150px;
+	}
+
+/* this is for the images up top*/
+.size	
+	{
+	height: 300px;
+	}
+/*this is the footer*/
+footer
+	{
+	background-color: black;
+	}
+footer p
+	{
+	color: white;
+	}
+.link:hover, .link:focus
+	{
+	font-style: italic;
+	color: lime;
+	}
+main>h2
+	{
+	color: #00FFBB;
+	}
+	
