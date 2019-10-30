@@ -1,0 +1,88 @@
+html {
+	background-color: rgba(21, 67, 97, 0.925);
+}
+/*this is for the main------------------------------------------*/
+main {
+	margin-left: 4em;
+	margin-right: 4em;
+}
+main img  {
+	width: 350px;
+	height: 350px;
+	display: inline;
+	margin: auto;
+}
+
+
+main p {
+	margin-top: 3em;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	
+}
+main h3 {
+	color: rgb(72, 151, 151);
+	font-size: 2em;
+}
+.haha {
+	margin-top: 3em;
+}
+main li {
+	font-size: 20px;
+	color: white;
+}
+/*this is the header section----------------------------------*/
+
+header h1{
+    color: white;
+    background-color: rgb(21, 67, 97, 0.925);
+    font-size: 4em;
+	text-align: center;
+	margin: 0;
+}
+
+
+/*this area is for the nav element---------------------------------------*/
+nav li a{
+	display: block;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: lightblue;
+	color: navy;
+	font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+	 
+}
+nav li {
+	width: 25%;
+}
+nav::after{
+	margin-bottom: .5em;
+	display: block;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	
+}
+
+nav ul li{
+	float: left;
+	
+}
+nav img{
+	width: 50%;
+	float: left;
+	height: 50%;
+}
+
+/*this is for class and id elements-----------------------------------*/
+
+a:hover, a:focus{
+	font-style: italic;
+	color: blueviolet;
+}   
